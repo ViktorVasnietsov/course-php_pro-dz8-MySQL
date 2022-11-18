@@ -1,0 +1,26 @@
+{
+    "name": "viktor/php-pro",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "3.2.*",
+        "guzzlehttp/guzzle": "7.*",
+        "nesbot/carbon": "2.*",
+        "ext-curl": "*",
+        "ufo-cms/colored_cli": " *",
+        "psr/container": "2.*",
+        "ext-readline": "*",
+      "ext-pdo": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Viktor\\PhpPro\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Viktor Vasnietsov"
+        }
+    ],
+    "minimum-stability": "dev"
+}
